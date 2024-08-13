@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Containers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 90%;
+            max-width: 600px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .container img {
+            max-width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .container .details {
+            flex-grow: 1;
+        }
+        .container .details h2 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .container .details .price {
+            color: green;
+            font-weight: bold;
+        }
+        .container .details .description {
+            font-size: 0.9em;
+            color: #555;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .container img {
+                margin-right: 0;
+                margin-bottom: 10px;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/img1.jpg" alt="Item 1">
+        <div class="details">
+            <h2>Platillo 1</h2>
+            <div class="price">$10.00</div>
+            <div class="description">Descripción 1.</div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="img/img1.jpg" alt="Item 2">
+        <div class="details">
+            <h2>Platillo 2</h2>
+            <div class="price">$20.00</div>
+            <div class="description">Descripción 2.</div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="img/img1.jpg" alt="Item 3">
+        <div class="details">
+            <h2>platillo 3</h2>
+            <div class="price">$30.00</div>
+            <div class="description">Descripción 3.</div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="img/img1.jpg" alt="Item 4">
+        <div class="details">
+            <h2>Platillo 4</h2>
+            <div class="price">$40.00</div>
+            <div class="description">Descripción 4.</div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="img/img1.jpg" alt="Item 5">
+        <div class="details">
+            <h2>Platillo 5</h2>
+            <div class="price">$50.00</div>
+            <div class="description">Descripción 5.</div>
+        </div>
+    </div>
+</body>
+</html>

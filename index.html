@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+    <html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="index, follow">
+    <!-- google site verification -->
+    <meta name="google-site-verification" content="" />
+
+    <!-- w3c -->
+     <title>Darummita Playas - Teriyaki & Sushi</title>
+    
+    <!-- Keywords -->
+    <meta name="keywords" content="Darummita, sushi, teriyaki, comida japonesa, Playas de Tijuana, sección Jardines, servicio a domicilio, sushi a domicilio, darummita playas, restaurantes en Tijuana, rolls, yakimeshi, tempura, comida asiática, menú japonés, Darummita Teriyaki & Sushi">
+
+    <meta name="description" content="Disfruta de auténtica comida japonesa en Darummita Playas Teriyaki & Sushi, ubicado en Playas de Tijuana, sección Jardines. Ofrecemos una deliciosa variedad de sushi, teriyaki, tempura, y más. Servicio a domicilio disponible." />
+    <meta name="author" content="Darummita Playas" />
+    
+    <!-- Color Pestaña-->
+    <meta name="theme-color" content="#800000">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+
+    <!-- opengraph -->
+    <meta property="og:image" content="https://darummitaplayas.github.io/logo.png"/>
+    <meta property="og:image:alt" content="DARUMMITA PLAYAS - Teriyaki Y Sushi"/>
+    <meta property="og:image:width" content="558"/>
+    <meta property="og:image:height" content="449"/>
+    <meta property="og:site_name" content="DARUMMITA PLAYAS - Teriyaki Y Sushi"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="DARUMMITA PLAYAS - Teriyaki Y Sushi"/>
+    <meta property="og:url" content="https://darummitaplayas.github.io"/>
+    <meta property="og:description" content="Disfruta de auténtica comida japonesa en Darummita Playas Teriyaki & Sushi, ubicado en Playas de Tijuana, sección Jardines. Ofrecemos una deliciosa variedad de sushi, teriyaki, tempura, y más. Servicio a domicilio disponible."/>
+  
+    <!-- twitter card -->
+    <meta name="twitter:image:src" content="https://darummitaplayas.github.io/logo.png"/>
+    <meta name="twitter:site" content="https://darummitaplayas.github.io"/>
+    <meta name="twitter:card" content="https://darummitaplayas.github.io/logo.png"/>
+    <meta name="twitter:title" content="DARUMMITA PLAYAS - Teriyaki Y Sushi"/>
+    <meta name="twitter:data1" content="Consultas: playasdarummita@gmail.com" />
+    <meta name="twitter:description" content="Disfruta de auténtica comida japonesa en Darummita Playas Teriyaki & Sushi, ubicado en Playas de Tijuana, sección Jardines. Ofrecemos una deliciosa variedad de sushi, teriyaki, tempura, y más. Servicio a domicilio disponible."/>
+
+<!-- Datos estructurados -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://darummitaplayas.github.io/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://darummitaplayas.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+    <!-- links -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://darummitaplayas.github.io/favicon.ico">
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<a href="https://wa.me/+522282886447?text=Me%20gustaría%20ordenar%20un%20platillo%20a%20domicilio" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+    <div class="container my-5">
+        <div class="header">
+            <img src="images/dplayas.jpg" alt="Portada" class="img-fluid portada">
+        </div>
+            <div id="menu-container" class="menu-container">
+        <button class="menu-button" onclick="toggleMenu()">Categoría de Platillos</button>
+        <ul class="menu-list" id="menuList">
+            <li onclick="redirectTo('categoria1.html')">Entradas</li>
+            <li onclick="redirectTo('categoria1.html')">Teriyakis</li>
+            <li onclick="redirectTo('categoria1.html')">Rollos</li>
+            <li onclick="redirectTo('categoria1.html')">Sopas</li>
+	    <li onclick="redirectTo('categoria1.html')">Tempuras</li>
+            <li onclick="redirectTo('categoria1.html')">Postres</li>
+        </ul>
+    </div><hr>
+<!--	<div id="video-container">
+          <video id="video" autoplay muted loop>
+             <source src="video.mp4" type="video/mp4">
+             Tu navegador no admite el elemento de video.
+          </video>                                      
+       </div>-->
+	      <h2 style="text-align: center; color: white;">Menú Rollos $260 2x1</h2>
+        <div id="image-gallery" class="d-flex flex-column align-items-center">
+            <div class="d-flex justify-content-center align-items-center mb-3">
+                <button class="btn btn-primary" onclick="prevImage()">&#8592;</button>
+                <div class="image-wrapper mx-3">
+                    <img id="current-image" src="images/image1.jpg" alt="Galería" class="img-fluid">
+                </div>
+                <button class="btn btn-primary" onclick="nextImage()">&#8594;</button>
+            </div>
+            <div id="image-description" class="description-wrapper text-center">
+        </div>
+            
+        <h2 style="text-align: center; color: white;">Menú Teriyakis $210 2x1</h2>
+    <div id="image-gallery-2" class="d-flex flex-column align-items-center">
+        <div class="d-flex justify-content-center align-items-center mb-3">
+            <button class="btn btn-primary" onclick="prevImage2()">&#8592;</button>
+            <div class="image-wrapper mx-3">
+                <img id="current-image-2" src="images/other_image1.jpg" alt="Galería 2" class="img-fluid">
+            </div>
+            <button class="btn btn-primary" onclick="nextImage2()">&#8594;</button>
+        </div>
+        <div id="image-description-2" class="description-wrapper text-center"></div>
+    </div>
+    <!-- FAQS -->
+    <footer>
+          <p style="color: #efb810;">Pulsa cualquier icono para Ir allá</p>
+        <div class="social-icons">
+            <a href="#" class="social-icon">
+                <img src="images/contacto/facebook-logo.png" alt="Facebook">
+                <span>Facebook</span>
+            </a>
+            <a href="#" class="social-icon">
+                <img src="images/contacto/instagram-logo.png" alt="Instagram">
+                <span>Instagram</span>
+            </a>
+            <a href="#" class="social-icon">
+                <img src="images/contacto/whatsapp-logo.png" alt="WhatsApp">
+                <span>WhatsApp</span>
+            </a>
+            <a href="tel:+522282886447" class="social-icon">
+                <img src="images/contacto/phone-logo.png" alt="Llamada">
+                <span>Llamada</span>
+            </a>
+        </div>
+    </footer><br>
+          <ul>
+          <li><span style="color: yellow;">DaruTel:</span>  663 322 5758</li>
+          <li><span style="color: yellow;">DaruCel:</span> 663 322 5758</li>
+          <li><span style="color: yellow;">WhatsApp:</span> 000 000 0000</li>                 
+          <li><span style="color: yellow;">Ubicación:</span> Av. tu corazaon</li>
+	  <h2 style="color: yellow; text-align: center;">Sigue La ruta para encontrarnos<br>Pulsando la ubicación aqui abajo</h2><hr>
+	  <div class="responsive-map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.5366928127613!2d-117.1189978255973!3d32.51830617377292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94be5f42cc193%3A0x2557c997ffda1807!2sDarummita%20Sushi!5e0!3m2!1ses!2smx!4v1715970570482!5m2!1ses!2smx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	  </div>
+          </ul>
+	<main>
+  <div class="container">
+  <div class="header">
+               <img src="images/contacto/darufaq.jpg" alt="faqs" class="img-fluid portada">
+  </div>
+    <fieldset class="preferences">
+      
+        <div class="switch">
+        <input id="switch-toggle" type="checkbox" role="switch" aria-labelledby="switch-label" />
+        
+        </div>
+      </label>
+    </fieldset>
+
+    <section>
+      <details class="accordion">
+        <summary id="accordion-toggle-01" class="accordion-toggle">
+                  <h2><span style="color: yellow;">¿Horarios Disponibles?</span></h2>
+          <span class="btn-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion-panel" aria-labelledby="accordion-toggle-01">
+          <!-- Additional div to smoothen grid 0 -> 1fr transition -->
+          <div class="accordion-drawer">
+            <!-- Additional div to add padding to the content without messing with the animation -->
+            <div class="accordion-content">
+                      <h3><span style="color: red;">Lunes a Domingo</span></h3>
+              <p>
+                Todos los días abrimos desde 10 de la mañana a 8:45 de la noche.
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section>
+      <details class="accordion">
+        <summary id="accordion-toggle-02" class="accordion-toggle">
+                  <h2><span style="color: yellow;">¿Puedo combinar 2x1?</span></h2>
+          <span class="btn-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion-panel" aria-labelledby="accordion-toggle-02">
+          <!-- Additional div to smoothen grid 0 -> 1fr transition -->
+          <div class="accordion-drawer">
+            <!-- Additional div to add padding to the content without messing with the animation -->
+            <div class="accordion-content">
+                      <h3><span style="color: red;">cualquier platillo 2x1 es combinable</span></h3>
+              <p>
+                puede combinar cualquiera de nuestros platillos en promoción. Claro que de nuestras categorias usted tendra que pagar el precio de la promoción mayor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section>
+      <details class="accordion">
+        <summary id="accordion-toggle-03" class="accordion-toggle">
+                  <h2><span style="color: yellow;">¿Tiempo de Espera?</span></h2>
+          <span class="btn-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion-panel" aria-labelledby="accordion-toggle-03">
+          <!-- Additional div to smoothen grid 0 -> 1fr transition -->
+          <div class="accordion-drawer">
+            <!-- Additional div to add padding to the content without messing with the animation -->
+            <div class="accordion-content">
+                      <h3><span style="color: red;">De 35 min Domicilio</span></h3>
+              <p>
+                        Nuestros tiempos de espera pueden variar según el platillo del cliente, regularmente el tiempo de espera estimado es de <span style="color: red;">35 min</span> (Servivio a domicilio) y de <span style="color: red;">10 a 15 minutos</span> cliente recoge para llevar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+    <section>
+      <details class="accordion">
+        <summary id="accordion-toggle-04" class="accordion-toggle">
+                  <h2><span style="color: yellow;">¿Hasta que zonas Entregan pedidos?</span></h2>
+          <span class="btn-icon" aria-hidden="true"></span>
+        </summary>
+        <div class="accordion-panel" aria-labelledby="accordion-toggle-03">
+          <!-- Additional div to smoothen grid 0 -> 1fr transition -->
+          <div class="accordion-drawer">
+            <!-- Additional div to add padding to the content without messing with the animation -->
+            <div class="accordion-content">
+                      <h3><span style="color: red;">Playas, Cardenas, Mirador +</span></h3>
+              <p>
+                Nuestros repartidores abarcan una gran zona perimetral, Todo Playas Cardenas y también Zonas del mirador y miramar, Nos vemos Limitados a entregar hasta las 6 de la tarde en Zonas Fuera de Playas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
+  </div>
+</main>
+        </div>
+    </div><br><br>
+    
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/faq.js"></script>
+</body>
+</html>
