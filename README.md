@@ -1,4 +1,22 @@
 # darummitaplayas.github.io
+Darummita Playas, enfocada en su fusión de Teriyaki y Sushi japonés:
+
+---
+
+**Bienvenidos a Darummita Teriyaki & Sushi: La Mejor Fusión Japonesa en Playas de Tijuana**
+
+En Darummita Teriyaki & Sushi, nos enorgullece ofrecer una experiencia culinaria única en Playas de Tijuana, donde la auténtica comida japonesa se encuentra con un toque de creatividad y fusión. Nuestra especialidad es el sushi y el teriyaki, preparados con ingredientes frescos y de la más alta calidad para garantizar sabores exquisitos en cada bocado.
+
+Ubicados en la sección Jardines, somos un destino preferido tanto para los amantes del sushi como para aquellos que buscan explorar nuevos sabores dentro de la comida asiática. Nuestro variado menú incluye desde los tradicionales rolls y yakimeshi, hasta tempura y platillos innovadores que combinan lo mejor de la gastronomía japonesa con toques modernos.
+
+Además, entendemos la importancia de la comodidad, por lo que ofrecemos un servicio a domicilio eficiente y puntual para que puedas disfrutar de nuestras delicias en la comodidad de tu hogar. Ya sea que estés planeando una cena en familia, una reunión con amigos, o simplemente quieras darte un gusto, Darummita Teriyaki & Sushi es tu opción ideal en Tijuana.
+
+Visítanos y descubre por qué somos uno de los restaurantes japoneses más recomendados en la zona. Te invitamos a explorar nuestro menú, lleno de opciones que cautivarán tus sentidos, y a disfrutar de un servicio amable y profesional que hará de tu experiencia algo inolvidable.
+
+**Darummita Teriyaki & Sushi: Donde la tradición japonesa se fusiona con la innovación para crear algo verdaderamente especial.**
+
+---
+
 Darummita Playas - Menú de Platillos Japoneses en el área de Playas de Tijuana con servicio a domicilio en el área de Playas de Tijuana Cárdenas 
 
 Pide tu platillo favorito y mira nuestro menu digital aqui abajo
